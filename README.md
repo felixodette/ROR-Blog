@@ -1,24 +1,37 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App
 
-Things you may want to cover:
+> A fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-* Ruby version
+## Made With
 
-* System dependencies
+- Ruby on Rails
 
-* Configuration
+## Getting Started
 
-* Database creation
+### Setup
 
-* Database initialization
+To setup the project locally: clone the repository using:
 
-* How to run the test suite
+```
+git clone git@github.com:felixodette/ROR-Blog.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Manel Hammouche**
 
-* ...
+- GitHub: [@felixodette](https://github.com/felixodette)
+- Twitter: [@Odette3000](https://twitter.com/Odette3000)
+- LinkedIn: [Felix Odete](https://www.linkedin.com/in/felixodete/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
