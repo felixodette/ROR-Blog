@@ -1,4 +1,4 @@
-class ChangeForenKeyForPost < ActiveRecord::Migration[7.0]
+class ChangeForeignKeyForPost < ActiveRecord::Migration[7.0]
   def change
     rename_column :posts, :user_id, :author_id
   end
