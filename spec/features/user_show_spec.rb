@@ -1,3 +1,4 @@
+# Rubocop disable Style/RedundantInterpolation
 require 'rails_helper'
 
 RSpec.describe 'user_show', type: :feature do
@@ -42,3 +43,5 @@ RSpec.describe 'user_show', type: :feature do
     expect(page.current_path).to eql("#{user_posts_path(user_id: user.id)}")
   end
 end
+
+# Rubocop enable Style/RedundantInterpolation
