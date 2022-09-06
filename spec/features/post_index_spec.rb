@@ -49,4 +49,3 @@ RSpec.describe 'post_index', type: :feature do
     expect(page.current_path).to eql(user_post_path(user_id: user.id, id: post.id))
   end
 end
-
