@@ -1,4 +1,3 @@
-# Rubocop disable Style/RedundantInterpolation
 require 'rails_helper'
 
 RSpec.describe 'user_show', type: :feature do
@@ -40,8 +39,6 @@ RSpec.describe 'user_show', type: :feature do
 
   it 'redirects to the user\'s posts page when the button See all posts is clicked' do
     click_link('See all posts')
-    expect(page.current_path).to eql(user_posts_path(user_id: user.id))
+    expect(page.current_path).to eql(user_posts_path(user_id: user.id).to_s)
   end
 end
-
-# Rubocop enable Style/RedundantInterpolation
