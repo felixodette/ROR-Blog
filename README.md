@@ -20,7 +20,7 @@ git clone git@github.com:felixodette/ROR-Blog.git
 
 ## Authors
 
-👤 **Manel Hammouche**
+👤 **Felix Odete**
 
 - GitHub: [@felixodette](https://github.com/felixodette)
 - Twitter: [@Odette3000](https://twitter.com/Odette3000)
