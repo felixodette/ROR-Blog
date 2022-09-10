@@ -46,7 +46,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :letter_opener
 
   config.debug_exception_response_format = :default
-  
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
